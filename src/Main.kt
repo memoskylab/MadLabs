@@ -14,22 +14,22 @@ fun main () {
     val totalMoneySaved = totalForGas + 200
 
     println("What's your name?")
-    var name = readLine()
+    val name = readLine()
     // Write your code below
     println("What's your friend name?")
-    var friendsName = readLine()
+    val friendsName = readLine()
 
     println("What's your adjective?")
-    var adjective = readLine()
+    val adjective = readLine()
 
     println("What's city that we are going to?")
-    var city = readLine()
+    val city = readLine()
 
     println("What band we want to see?")
-    var bandName = readLine()
+    val bandName = readLine()
 
     println("What kind of job you do and your $friendsName do in order to save a money?")
-    var work = readLine()
+    val work = readLine()
 
     print("""
     A long time ago, $name and their friend $friendsName planned a(n) $adjective road trip to see their favorite band: $bandName. 
