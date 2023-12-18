@@ -5,13 +5,13 @@ fun main () {
     // Declare the variable distance below
     val distance: Int
     println("Enter the distance to be traveled between 400 and 600:")
-    var userInput = readLine()
+    val userInput = readLine()
     distance = userInput?.toIntOrNull() ?: 100
 
     var totalForGas = (costOfGas / mileage) * distance
     totalForGas = Math.round(totalForGas * 100) / 100.00
 
-    var totalMoneySaved = totalForGas + 200
+    val totalMoneySaved = totalForGas + 200
 
     println("What's your name?")
     var name = readLine()
